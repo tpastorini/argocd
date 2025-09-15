@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: guestbook
-        image: gcr.io/google-samples/gb-frontend:v4
+        image: gcr.io/google-samples/gb-frontend:latest
         ports:
         - containerPort: 80
